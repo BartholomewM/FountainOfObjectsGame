@@ -1,0 +1,15 @@
+C:\Users\barte\Desktop\python\player_guide\FountainOfObjects\FountainOfObjects\bin\Debug\net6.0\FountainOfObjects.exe
+C:\Users\barte\Desktop\python\player_guide\FountainOfObjects\FountainOfObjects\bin\Debug\net6.0\FountainOfObjects.deps.json
+C:\Users\barte\Desktop\python\player_guide\FountainOfObjects\FountainOfObjects\bin\Debug\net6.0\FountainOfObjects.runtimeconfig.json
+C:\Users\barte\Desktop\python\player_guide\FountainOfObjects\FountainOfObjects\bin\Debug\net6.0\FountainOfObjects.dll
+C:\Users\barte\Desktop\python\player_guide\FountainOfObjects\FountainOfObjects\bin\Debug\net6.0\FountainOfObjects.pdb
+C:\Users\barte\Desktop\python\player_guide\FountainOfObjects\FountainOfObjects\obj\Debug\net6.0\FountainOfObjects.csproj.AssemblyReference.cache
+C:\Users\barte\Desktop\python\player_guide\FountainOfObjects\FountainOfObjects\obj\Debug\net6.0\FountainOfObjects.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\barte\Desktop\python\player_guide\FountainOfObjects\FountainOfObjects\obj\Debug\net6.0\FountainOfObjects.AssemblyInfoInputs.cache
+C:\Users\barte\Desktop\python\player_guide\FountainOfObjects\FountainOfObjects\obj\Debug\net6.0\FountainOfObjects.AssemblyInfo.cs
+C:\Users\barte\Desktop\python\player_guide\FountainOfObjects\FountainOfObjects\obj\Debug\net6.0\FountainOfObjects.csproj.CoreCompileInputs.cache
+C:\Users\barte\Desktop\python\player_guide\FountainOfObjects\FountainOfObjects\obj\Debug\net6.0\FountainOfObjects.dll
+C:\Users\barte\Desktop\python\player_guide\FountainOfObjects\FountainOfObjects\obj\Debug\net6.0\refint\FountainOfObjects.dll
+C:\Users\barte\Desktop\python\player_guide\FountainOfObjects\FountainOfObjects\obj\Debug\net6.0\FountainOfObjects.pdb
+C:\Users\barte\Desktop\python\player_guide\FountainOfObjects\FountainOfObjects\obj\Debug\net6.0\FountainOfObjects.genruntimeconfig.cache
+C:\Users\barte\Desktop\python\player_guide\FountainOfObjects\FountainOfObjects\obj\Debug\net6.0\ref\FountainOfObjects.dll
