@@ -1,0 +1,36 @@
+@startuml
+
+hide empty members
+
+class Player {
+    ' fields
+    - _x
+    - _y
+
+    ' methods
+    + GetX()
+    + GetY()
+    + Player()
+}
+
+
+class Caverns {
+    
+    - 
+
+    ' methods
+    + Get_IsFountainActivated(): bool
+
+}
+
+interface IDecision << interface >> {
+    + {abstract} DoDecision(player: Player, maze: Maze): void
+}
+
+enum RoomType 
+
+interface IRoom << interface >> {
+    
+}
+
+@enduml

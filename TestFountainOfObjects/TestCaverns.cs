@@ -8,7 +8,7 @@ public class TestMaze {
 
 	[TestMethod]
 	public void TestGetFountainActivation() {
-		CavernsOfObjects maze = new CavernsOfObjects();
+		Caverns maze = new Caverns();
 
 		var state = maze.IsFountainActivated;
 
@@ -17,7 +17,7 @@ public class TestMaze {
 
 	[TestMethod]
 	public void TestInit() {
-		CavernsOfObjects maze = new CavernsOfObjects();
+		Caverns maze = new Caverns();
 
 		Assert.IsNotNull(maze.Rooms[0, 0]);
 		Assert.IsNotNull(maze.Rooms[1, 0]);

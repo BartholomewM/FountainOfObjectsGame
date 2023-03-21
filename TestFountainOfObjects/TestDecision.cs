@@ -9,7 +9,7 @@ public class TestIDecision {
 	[TestMethod]
 	public void TestHeadSouth() {
 		Player player = new Player();
-		CavernsOfObjects maze = new CavernsOfObjects();
+		Caverns maze = new Caverns();
 
 		DecisionSouth south = new DecisionSouth();
 		south.DoDecison(player, maze);
@@ -20,7 +20,7 @@ public class TestIDecision {
 
 	public void TestHeadSouth2() {
 		Player player = new Player();
-		CavernsOfObjects maze = new CavernsOfObjects();
+		Caverns maze = new Caverns();
 
 		DecisionSouth south = new DecisionSouth();
 		south.DoDecison(player, maze);
@@ -32,7 +32,7 @@ public class TestIDecision {
 
 	public void TestHeadSouth3() {
 		Player player = new Player();
-		CavernsOfObjects maze = new CavernsOfObjects();
+		Caverns maze = new Caverns();
 
 		DecisionSouth south = new DecisionSouth();
 		south.DoDecison(player, maze);
@@ -45,7 +45,7 @@ public class TestIDecision {
 
 	public void TestHeadSouth4() {
 		Player player = new Player();
-		CavernsOfObjects maze = new CavernsOfObjects();
+		Caverns maze = new Caverns();
 
 		DecisionSouth south = new DecisionSouth();
 		south.DoDecison(player, maze);
@@ -61,7 +61,7 @@ public class TestIDecision {
 	[TestMethod]
 	public void TestHeadNorth1() {
 		Player player = new Player();
-		CavernsOfObjects maze = new CavernsOfObjects();
+		Caverns maze = new Caverns();
 
 		DecisionNorth north = new DecisionNorth();
 		north.DoDecison(player, maze);
@@ -73,7 +73,7 @@ public class TestIDecision {
 	[TestMethod]
 	public void TestHeadNorth2() {
 		Player player = new Player();
-		CavernsOfObjects maze = new CavernsOfObjects();
+		Caverns maze = new Caverns();
 
 		DecisionSouth south = new DecisionSouth();
 		south.DoDecison(player, maze);
@@ -91,7 +91,7 @@ public class TestIDecision {
 	[TestMethod]
 	public void TestHeadEast1() {
 		Player player = new Player();
-		CavernsOfObjects maze = new CavernsOfObjects();
+		Caverns maze = new Caverns();
 
 		var east = new DecisionEast();
 		east.DoDecison(player, maze);
@@ -102,7 +102,7 @@ public class TestIDecision {
 	[TestMethod]
 	public void TestHeadEast2() {
 		Player player = new Player();
-		CavernsOfObjects maze = new CavernsOfObjects();
+		Caverns maze = new Caverns();
 
 		var east = new DecisionEast();
 		east.DoDecison(player, maze);
@@ -114,7 +114,7 @@ public class TestIDecision {
 	[TestMethod]
 	public void TestHeadEast3() {
 		Player player = new Player();
-		CavernsOfObjects maze = new CavernsOfObjects();
+		Caverns maze = new Caverns();
 
 		var east = new DecisionEast();
 		east.DoDecison(player, maze);
@@ -131,7 +131,7 @@ public class TestIDecision {
 	[TestMethod]
 	public void TestHeadWest1() {
 		Player player = new Player();
-		CavernsOfObjects maze = new CavernsOfObjects();
+		Caverns maze = new Caverns();
 
 		DecisionWest west = new DecisionWest();
 		west.DoDecison(player, maze);
@@ -142,7 +142,7 @@ public class TestIDecision {
 	[TestMethod]
 	public void TestHeadWest2() {
 		Player player = new Player();
-		CavernsOfObjects maze = new CavernsOfObjects();
+		Caverns maze = new Caverns();
 
 		var east = new DecisionEast();
 		east.DoDecison(player, maze);
@@ -160,7 +160,7 @@ public class TestIDecision {
 	[TestMethod]
 	public void TestFountainActivation1() {
 		Player player = new Player();
-		CavernsOfObjects maze = new CavernsOfObjects();
+		Caverns maze = new Caverns();
 		(int x, int y) = maze.MainchamberCoor;
 
 		Assert.IsNotNull(maze.Rooms[x, y]);

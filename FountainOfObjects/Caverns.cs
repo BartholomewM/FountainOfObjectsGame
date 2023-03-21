@@ -1,12 +1,15 @@
 ﻿namespace FountainOfObjects;
 
 
+/// <summary>
+/// Main object in game, it has two dimension table with references to IRoom derived classes
+/// </summary>
+public class Caverns {
 
-
-public class CavernsOfObjects {
 	// fields
 	// the maze where game take place
 	private IRoom[,] _rooms;
+
 	// bound of the world, useful in asserting player does not move outside maze
 	// boun is greater than max idx
 	private int _bound;
@@ -17,6 +20,7 @@ public class CavernsOfObjects {
 	public IRoom[,] Rooms { get => _rooms; }
 	public int Bound { get => _bound; }
 	public (int x, int y) MainchamberCoor { get => (_fountainHorizontalPosition, _fountainVerticalPosition); }
+
 	public bool IsFountainActivated {
 		get {
 			return (_rooms[_fountainHorizontalPosition, _fountainVerticalPosition] as FountainRoom)!.IsFountainActivated;
@@ -28,7 +32,7 @@ public class CavernsOfObjects {
 	}
 
 
-	public CavernsOfObjects(string size) {
+	public Caverns(string size) {
 		int sizeNum = 4;
 
 		sizeNum = size switch { "small" => 4, "medium" => 6, "large" => 8 };
@@ -50,7 +54,7 @@ public class CavernsOfObjects {
 	}
 
 
-	public CavernsOfObjects(int x = 0, int y = 2, int sizeNum = 4) {
+	public Caverns(int x = 0, int y = 2, int sizeNum = 4) {
 		_rooms = new IRoom[sizeNum, sizeNum];
 		_rooms[0, 0] = new EntranceRoom();
 		_bound = sizeNum;

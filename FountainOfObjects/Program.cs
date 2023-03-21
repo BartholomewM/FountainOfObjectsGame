@@ -1,14 +1,13 @@
 ﻿using FountainOfObjects;
 
 
-
 public class Program {
 	public static void Main(string[] args) {
 		ShowObjective();
 		//string difficulty = ChooseDifficulty();
 
 		// to test the game there is default constructor with hard coded location of fountain
-		CavernsOfObjects maze = new CavernsOfObjects();
+		Caverns maze = new Caverns();
 		Player player = new Player();
 
 		//Console.WriteLine(maze.IsFountainActivated);
@@ -27,10 +26,14 @@ public class Program {
 					"You must navigate the Caverns with your other senses.\r\n" +
 					"Find the Fountain of Objects, activate it, and return to the entrance.";
 		
-		Console.WriteLine(s);	
+		Console.WriteLine(s);
+		Console.WriteLine();
+		Console.WriteLine("Possible decisions are : west, east, north, south, activate");
+		Console.WriteLine("activate command works only in Fountain room");
+		Console.WriteLine("if you try using, for example north command, when you are at the north wall your character just won't do anything");
 	}
-	
-	
+
+
 	private static string ChooseDifficulty() {
 		string? str = "";
 		bool b = true;
@@ -74,7 +77,7 @@ public class Program {
 	}
 
 
-	private static void CurrentSituation(Player player, CavernsOfObjects maze) {
+	private static void CurrentSituation(Player player, Caverns maze) {
 		int x = player.X; 
 		int y = player.Y;
 
@@ -116,7 +119,7 @@ public class Program {
 	}
 
 
-	private static void MainGameProgram(Player player, CavernsOfObjects maze) {
+	private static void MainGameProgram(Player player, Caverns maze) {
 
 		while (true) {
 			CurrentSituation(player, maze);

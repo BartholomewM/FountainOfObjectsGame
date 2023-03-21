@@ -1,0 +1,21 @@
+
+@startuml 
+
+class Dummy {
+    ' fields
+    - priv_field
+    + pub_field
+
+    ' methods
+    - priv_method()
+    + pub_method()
+
+}
+
+class BiggerDummy {
+    + d: Dummy
+}
+
+BiggerDummy <|.. Dummy
+
+@enduml

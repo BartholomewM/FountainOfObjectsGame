@@ -1,29 +1,4 @@
-﻿
-
-namespace FountainOfObjects; 
-
-public interface IRoom {
-	public RoomType Type { get; }
-	public string Sense { get; }
-}
-
-
-public class Room : IRoom {
-	public RoomType Type { get => RoomType.Normal; }
-	public string Sense { get => ""; }
-}
-
-
-public class EntranceRoom : IRoom {
-	public RoomType Type { get => RoomType.Entrance; }
-
-	public string Sense { get => "You see light coming from the cavern entrance.\n"; }
-}
-
-
-//public class Maelstroms : IRoom {
-
-//}
+﻿namespace FountainOfObjects;
 
 
 public class FountainRoom : IRoom {
@@ -46,6 +21,3 @@ public class FountainRoom : IRoom {
 		}
 	}
 }
-
-
-public enum RoomType { Normal, Fountain, Entrance }
